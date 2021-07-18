@@ -1,0 +1,41 @@
+\par O propósito desse trabalho é desenvolver um sistema capaz de controlar o
+protótipo do modelo real de um elevador de 4 andares utilizando um chip FPGA
+para processar informações digitais e enviar sinais de comando para um motor DC
+-- ou de corrente contínua, componente responsável pelo movimento da cabine.
+\par Esse trabalho também aborda detalhes sobre a aplicação da linguagem de
+descrição de hardware Verilog no design de sistemas afins e apresenta onde essa 
+ferramenta diferencia-se das linguagens de programação mais comuns da indústria.
+\par O FPGA é um chip desenhado para ser configurado pelo projetista, por isso o
+nome \textit{Field-Programmable}, ou programável em campo, essa característica
+possibilita ao designer projetar, verificar e implementar sistemas 
+\textit{on-the-fly}, rapidamente, garantindo a versatilidade e operabilidade
+imediata de sistemas complexos. Há nesse trabalho a verificação do potencial desse 
+dispositivo para desenvolvimento estratégico e rápido de sistemas digitais de 
+controle, dessa maneira, justificando seu uso extensivo em diversas aplicações na 
+indústria.
+\par Ao longo desse relatório, serão descritas todas as etapas do projeto, desde a 
+escolha do design de controle ao desenvolvimento do modelo físico do elevador
+seguindo o seguinte esquema lógico:
+\vfill
+\emph{Estrutura do relatório -- esquema lógico}\vspace{2pt}
+\normalsize
+\hrule
+\begin{center}
+	\begin{itemize}
+		\item \emph{O Elevador}
+		\begin{itemize} \renewcommand{\labelitemi}{$\Rightarrow$}
+			\item As características da estrutura física
+			\item Os elementos do elevador
+			\item Sensores
+			\item A interface de entrada
+			\item O projeto elétrico
+		\end{itemize}
+		\item \emph{O Controle}
+		\begin{itemize} \renewcommand{\labelitemi}{$\Rightarrow$}
+			\item As variáveis de controle 
+			\item O circuito de controle 
+			\item A máquina de estados finita 
+		\end{itemize}
+	\end{itemize}
+\end{center}
+\hrule

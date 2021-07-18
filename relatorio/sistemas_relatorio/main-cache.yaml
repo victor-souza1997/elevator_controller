@@ -1,0 +1,2955 @@
+version: 0.12.2
+filePath: main.tex
+options:
+  $BIBINPUTS:
+    - $ROOTDIR
+    - $ROOTDIR/$OUTDIR
+    - ''
+  $TEXINPUTS:
+    - $ROOTDIR
+    - $ROOTDIR/$OUTDIR
+    - ''
+  bibtexEngine: bibtex
+  cleanPatterns:
+    - '**/*.aux'
+    - '**/*.aux.bak'
+    - '**/*.bbl'
+    - '**/*.bcf'
+    - '**/*.blg'
+    - '**/*.dvi'
+    - '**/*.fdb_latexmk'
+    - '**/*.fls'
+    - '**/*.idx'
+    - '**/*.idx.bak'
+    - '**/*.ilg'
+    - '**/*.ind'
+    - '**/*.lof'
+    - '**/*.log'
+    - '**/*.lol'
+    - '**/*.lot'
+    - '**/*.nav'
+    - '**/*.out'
+    - '**/*.pdf'
+    - '**/*.ps'
+    - '**/*.snm'
+    - '**/*.synctex.gz'
+    - '**/*.toc'
+    - '/**/_minted-${JOB}'
+    - '/${OUTDIR}/sage-plots-for-${JOB}.tex'
+    - /missfont.log
+    - /texput.log
+    - /texput.aux
+    - '**/*.xdv'
+  dviToPdfEngine: xdvipdfmx
+  engine: xelatex
+  epstopdfBoundingBox: default
+  epstopdfOutputPath: $DIR_0/$NAME_0.pdf
+  indexAutomaticRanges: true
+  indexEngine: makeindex
+  indexOrdering: word
+  indexSorting: default
+  knitrConcordance: true
+  knitrOutputPath: $JOB.tex
+  lhs2texStyle: poly
+  literateAgdaEngine: agda
+  literateHaskellEngine: lhs2TeX
+  loadCache: true
+  loadUserOptions: true
+  outputFormat: pdf
+  phaseCycles: 20
+  pweaveCacheDirectory: pweave-cache-for-$JOB
+  pweaveFigureDirectory: pweave-figures-for-$JOB
+  pweaveKernel: python3
+  pweaveOutputFormat: tex
+  pweaveOutputPath: $JOB.tex
+  saveCache: true
+  severity: info
+  validateCache: true
+  synctex: true
+  copyTargetsToRoot: true
+  outputDirectory: tex
+  intermediatePostScript: false
+files:
+  dicy-instance.yaml-ParsedYAML:
+    timeStamp: 2019-09-08T06:32:34.604Z
+    jobNames: []
+    value:
+      severity: info
+    type: ParsedYAML
+  dicy.yaml-ParsedYAML:
+    jobNames: []
+    type: ParsedYAML
+  main.yaml-ParsedYAML:
+    jobNames: []
+    type: ParsedYAML
+  main.tex-ParsedLaTeXMagic:
+    timeStamp: 2019-09-07T16:28:14.749Z
+    jobNames: []
+    value: {}
+    type: ParsedLaTeXMagic
+  /home/felix/.config/dicy/config.yaml-ParsedYAML:
+    timeStamp: 2019-09-07T16:28:35.866Z
+    jobNames: []
+    value:
+      synctex: true
+      engine: xelatex
+      severity: error
+      copyTargetsToRoot: true
+      outputDirectory: tex
+      outputFormat: pdf
+      cleanPatterns:
+        - '**/*.aux'
+        - '**/*.aux.bak'
+        - '**/*.bbl'
+        - '**/*.bcf'
+        - '**/*.blg'
+        - '**/*.dvi'
+        - '**/*.fdb_latexmk'
+        - '**/*.fls'
+        - '**/*.idx'
+        - '**/*.idx.bak'
+        - '**/*.ilg'
+        - '**/*.ind'
+        - '**/*.lof'
+        - '**/*.log'
+        - '**/*.lol'
+        - '**/*.lot'
+        - '**/*.nav'
+        - '**/*.out'
+        - '**/*.pdf'
+        - '**/*.ps'
+        - '**/*.snm'
+        - '**/*.synctex.gz'
+        - '**/*.toc'
+        - '/**/_minted-${JOB}'
+        - '/${OUTDIR}/sage-plots-for-${JOB}.tex'
+        - /missfont.log
+        - /texput.log
+        - /texput.aux
+        - '**/*.xdv'
+      intermediatePostScript: false
+    type: ParsedYAML
+  main.tex:
+    timeStamp: 2019-09-08T06:35:44.402Z
+    jobNames: []
+    hash: K8MOpQgGcgm1vaW7MAH8TQs2P3SEbzzevdbgSF6We8Y=
+    type: LaTeX
+    subType: report
+  /home/felix/.config/dicy/config.yaml:
+    timeStamp: 2019-09-07T16:28:35.702Z
+    jobNames: []
+    type: YAML
+  x.y-Nil:
+    jobNames: []
+    type: Nil
+  output/main.fls-ParsedFileListing:
+    timeStamp: 2019-09-07T16:28:15.258Z
+    jobNames: []
+    value:
+      messages: []
+      inputs:
+        - /usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map
+        - /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
+        - /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+        - /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+        - /usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+        - /usr/share/texlive/texmf-dist/tex/latex/base/report.cls
+        - /usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+        - /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+        - /usr/share/texlive/texmf-dist/tex/latex/graphics-def/xetex.def
+        - /usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+        - /usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+        - /usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+        - /usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+        - /usr/share/texlive/texmf-dist/web2c/texmf.cnf
+        - /usr/share/texlive/texmf-var/web2c/xetex/xelatex.fmt
+        - main.tex
+        - output/main.aux
+      outputs:
+        - output/main.aux
+        - output/main.log
+      calls: []
+    type: ParsedFileListing
+  output/main.log-ParsedLaTeXLog:
+    timeStamp: 2019-09-07T16:28:21.072Z
+    jobNames: []
+    value:
+      messages:
+        - name: XeTeX
+          severity: info
+          text: inputenc 2018/04/06 v1.3b Input encoding file
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+          log:
+            file: output/main.log
+            range:
+              start: 27
+              end: 27
+        - severity: warning
+          name: XeTeX
+          category: Package inputenc
+          text: inputenc package ignored with utf8 based engines.
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+          log:
+            file: output/main.log
+            range:
+              start: 31
+              end: 31
+        - name: XeTeX
+          severity: info
+          text: 'graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)'
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+          log:
+            file: output/main.log
+            range:
+              start: 34
+              end: 34
+        - name: XeTeX
+          severity: info
+          text: keyval 2014/10/28 v1.15 key=value parser (DPC)
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+          log:
+            file: output/main.log
+            range:
+              start: 36
+              end: 36
+        - name: XeTeX
+          severity: info
+          text: 'graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)'
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+          log:
+            file: output/main.log
+            range:
+              start: 39
+              end: 39
+        - name: XeTeX
+          severity: info
+          text: trig 2016/01/03 v1.10 sin cos tan (DPC)
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+          log:
+            file: output/main.log
+            range:
+              start: 41
+              end: 41
+        - severity: info
+          name: XeTeX
+          category: Package graphics
+          text: 'Driver file: xetex.def'
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+            range:
+              start: 99
+              end: 99
+          log:
+            file: output/main.log
+            range:
+              start: 45
+              end: 45
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: Checking defaults for OML/cmm/m/it ... okay
+          source:
+            file: main.tex
+            range:
+              start: 15
+              end: 15
+          log:
+            file: output/main.log
+            range:
+              start: 54
+              end: 55
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: Checking defaults for T1/cmr/m/n ... okay
+          source:
+            file: main.tex
+            range:
+              start: 15
+              end: 15
+          log:
+            file: output/main.log
+            range:
+              start: 56
+              end: 57
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: Checking defaults for OT1/cmr/m/n ... okay
+          source:
+            file: main.tex
+            range:
+              start: 15
+              end: 15
+          log:
+            file: output/main.log
+            range:
+              start: 58
+              end: 59
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: Checking defaults for OMS/cmsy/m/n ... okay
+          source:
+            file: main.tex
+            range:
+              start: 15
+              end: 15
+          log:
+            file: output/main.log
+            range:
+              start: 60
+              end: 61
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: Checking defaults for TU/lmr/m/n ... okay
+          source:
+            file: main.tex
+            range:
+              start: 15
+              end: 15
+          log:
+            file: output/main.log
+            range:
+              start: 62
+              end: 63
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: Checking defaults for OMX/cmex/m/n ... okay
+          source:
+            file: main.tex
+            range:
+              start: 15
+              end: 15
+          log:
+            file: output/main.log
+            range:
+              start: 64
+              end: 65
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: Checking defaults for U/cmr/m/n ... okay
+          source:
+            file: main.tex
+            range:
+              start: 15
+              end: 15
+          log:
+            file: output/main.log
+            range:
+              start: 66
+              end: 67
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: External font `cmex10' loaded for size <14.4>.
+          source:
+            file: main.tex
+            range:
+              start: 16
+              end: 16
+          log:
+            file: output/main.log
+            range:
+              start: 68
+              end: 69
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: External font `cmex10' loaded for size <7>.
+          source:
+            file: main.tex
+            range:
+              start: 16
+              end: 16
+          log:
+            file: output/main.log
+            range:
+              start: 70
+              end: 71
+      inputs: []
+      outputs:
+        - output/main.pdf
+      calls: []
+    type: ParsedLaTeXLog
+  output/main.aux-ParsedLaTeXAuxilary:
+    timeStamp: 2019-09-07T16:28:15.254Z
+    jobNames: []
+    value:
+      commands:
+        - relax
+    type: ParsedLaTeXAuxilary
+  /usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map:
+    timeStamp: 2017-11-27T23:19:31.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm:
+    timeStamp: 2016-11-25T18:31:41.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm:
+    timeStamp: 2016-11-25T18:31:41.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm:
+    timeStamp: 2016-11-25T18:31:41.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty:
+    timeStamp: 2019-03-19T15:24:27.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/share/texlive/texmf-dist/tex/latex/base/report.cls:
+    timeStamp: 2019-03-19T15:24:26.000Z
+    jobNames: []
+    type: LaTeXClass
+  /usr/share/texlive/texmf-dist/tex/latex/base/size12.clo:
+    timeStamp: 2019-03-19T15:24:27.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg:
+    timeStamp: 2016-11-25T18:33:50.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/graphics-def/xetex.def:
+    timeStamp: 2017-06-25T21:51:33.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty:
+    timeStamp: 2018-04-07T20:53:05.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty:
+    timeStamp: 2018-04-07T20:53:05.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty:
+    timeStamp: 2018-04-07T20:53:05.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty:
+    timeStamp: 2018-04-07T20:53:05.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/share/texlive/texmf-dist/web2c/texmf.cnf:
+    timeStamp: 2019-03-19T15:24:35.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-var/web2c/xetex/xelatex.fmt:
+    timeStamp: 2019-08-13T20:02:47.187Z
+    jobNames: []
+  tex/main.fls-ParsedFileListing:
+    timeStamp: 2019-09-08T08:05:55.267Z
+    jobNames: []
+    value:
+      messages: []
+      inputs:
+        - /usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map
+        - /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
+        - /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
+        - /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
+        - /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+        - /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
+        - /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
+        - /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
+        - /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+        - /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
+        - /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
+        - /usr/share/texlive/texmf-dist/tex/generic/babel-portuges/portuges.ldf
+        - /usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+        - /usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+        - /usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
+        - /usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def
+        - /usr/share/texlive/texmf-dist/tex/generic/babel/xebabel.def
+        - /usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+        - /usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+        - /usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+        - /usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+        - /usr/share/texlive/texmf-dist/tex/latex/base/report.cls
+        - /usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+        - /usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+        - /usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+        - /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+        - /usr/share/texlive/texmf-dist/tex/latex/graphics-def/xetex.def
+        - /usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+        - /usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+        - /usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+        - /usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+        - /usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/UKenglish.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/USenglish.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/acadian.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/acadien.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/afrikaan.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/afrikaans.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/albanian.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/american.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/arab.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/arab2.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/arabi.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/arabic.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/armenian.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/australian.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/austrian.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/bahasa.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/bahasai.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/bahasam.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/bangla.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/basque.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/bengali.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/bicig.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/bicig2.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/bicig3.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/bithe.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/brazil.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/brazilian.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/breton.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/british.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/bulgarian.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/bulgarianb.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/buryat.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/buryat2.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/canadian.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/canadien.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/castillan.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/castillian.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/catalan.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/chinese1.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/chinese1.mlo
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/chinese2.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/chinese2.mlo
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/croatian.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/czech.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/danish.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/devanagari.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/dutch.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/english.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/english1.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/english2.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/esperant.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/esperanto.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/estonian.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/ethiopia.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/ethiopian.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/ethiopian2.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/farsi1.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/farsi1.mlo
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/farsi2.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/farsi2.mlo
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/farsi3.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/finnish.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/finnish2.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/francais.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/french.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/french1.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/french2.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/frenchb.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/frenchle.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/frenchpro.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/galician.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/german.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/germanb.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/germanb2.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/greek-mono.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/greek-polydemo.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/greek-polykatha.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/greek.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/guarani.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/hangul-u8.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/hangul-u8.mlo
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/hangul1.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/hangul1.mlo
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/hangul2.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/hangul2.mlo
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/hangul3.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/hangul3.mlo
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/hangul4.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/hangul4.mlo
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/hanja-u8.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/hanja-u8.mlo
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/hanja1.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/hanja1.mlo
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/hanja2.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/hanja2.mlo
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/hebrew.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/hebrew2.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/hindi-modern.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/hindi.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/hungarian.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/icelandic.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/indon.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/indonesian.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/interlingua.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/irish.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/italian.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/italian2.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/japanese.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/japanese.mlo
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/japanese2.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/japanese2.mlo
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/japanese3.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/japanese3.mlo
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/japanese4.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/japanese4.mlo
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/japanese5.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/japanese5.mlo
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/japanese6.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/japanese6.mlo
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/kannada.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/khalkha.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/latin.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/latin2.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/latinc.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/latinc2.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/latvian.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/latvian2.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/letton.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/letton2.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/lithuanian.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/lithuanian2.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/lowersorbian.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/lsorbian.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/magyar.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/magyar2.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/magyar3.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/malay.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/malayalam-b.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/malayalam-keli.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/malayalam-keli2.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/malayalam-mr.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/malayalam-omega.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/malayalam-omega.mlo
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/malayalam-rachana.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/malayalam-rachana2.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/malayalam-rachana3.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/manju.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/mexican.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/meyalu.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/minitoc.sty
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/mongol.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/mongolb.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/mongolian.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/mtcmess.sty
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/naustrian.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/newzealand.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/ngerman.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/ngermanb.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/ngermanb2.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/norsk.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/norsk2.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/nynorsk.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/nynorsk2.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/occitan.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/occitan2.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/polish.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/polish2.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/polski.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/portuges.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/portuguese.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/romanian.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/romanian2.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/romanian3.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/russian-cca.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/russian-cca.mlo
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/russian-cca1.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/russian-cca1.mlo
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/russian-lh.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/russian-lh.mlo
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/russian-lhcyralt.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/russian-lhcyralt.mlo
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/russian-lhcyrkoi.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/russian-lhcyrkoi.mlo
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/russian-lhcyrwin.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/russian-lhcyrwin.mlo
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/russian.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/russian2m.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/russian2o.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/russianb.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/russianc.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/samin.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/scottish.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/serbian.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/serbianc.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/slovak.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/slovene.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/spanish.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/spanish2.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/spanish3.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/spanish4.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/swahili.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/swedish.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/swedish2.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/thai.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/thai.mlo
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/turkish.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/uighur.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/uighur2.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/uighur3.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/ukraineb.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/ukrainian.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/uppersorbian.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/usorbian.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/vietnam.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/vietnamese.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/welsh.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/xalx.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/xalx2.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/minitoc/xalx3.mld
+        - /usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
+        - /usr/share/texlive/texmf-dist/tex/latex/tocloft/tocloft.sty
+        - /usr/share/texlive/texmf-dist/web2c/texmf.cnf
+        - /usr/share/texlive/texmf-var/web2c/xetex/xelatex.fmt
+        - chapters/conclusoes.tex
+        - chapters/metodologia.tex
+        - chapters/objetivos.tex
+        - chapters/resumo.tex
+        - main.tex
+        - tex/main.aux
+        - tex/main.mtc
+        - tex/main.mtc0
+        - tex/main.mtc1
+        - tex/main.mtc2
+        - tex/main.mtc3
+        - tex/main.mtc4
+        - tex/main.toc
+        - titlepage.tex
+      outputs:
+        - tex/main.aux
+        - tex/main.log
+        - tex/main.maf
+        - tex/main.mtc
+        - tex/main.mtc0
+        - tex/main.toc
+      calls: []
+    type: ParsedFileListing
+  tex/main.log-ParsedLaTeXLog:
+    timeStamp: 2019-09-08T08:05:55.272Z
+    jobNames: []
+    value:
+      messages:
+        - name: XeTeX
+          severity: info
+          text: inputenc 2018/04/06 v1.3b Input encoding file
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+          log:
+            file: tex/main.log
+            range:
+              start: 27
+              end: 27
+        - severity: warning
+          name: XeTeX
+          category: Package inputenc
+          text: inputenc package ignored with utf8 based engines.
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+          log:
+            file: tex/main.log
+            range:
+              start: 31
+              end: 31
+        - name: XeTeX
+          severity: info
+          text: babel 2018/06/05 3.22 The Babel package
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+          log:
+            file: tex/main.log
+            range:
+              start: 34
+              end: 34
+        - severity: info
+          name: XeTeX
+          category: Package babel
+          text: Making " an active character
+          source:
+            file: >-
+              /usr/share/texlive/texmf-dist/tex/generic/babel-portuges/portuges.ldf
+            range:
+              start: 145
+              end: 145
+          log:
+            file: tex/main.log
+            range:
+              start: 48
+              end: 48
+        - name: XeTeX
+          severity: info
+          text: 'graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)'
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+          log:
+            file: tex/main.log
+            range:
+              start: 50
+              end: 50
+        - name: XeTeX
+          severity: info
+          text: keyval 2014/10/28 v1.15 key=value parser (DPC)
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+          log:
+            file: tex/main.log
+            range:
+              start: 52
+              end: 52
+        - name: XeTeX
+          severity: info
+          text: 'graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)'
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+          log:
+            file: tex/main.log
+            range:
+              start: 55
+              end: 55
+        - name: XeTeX
+          severity: info
+          text: trig 2016/01/03 v1.10 sin cos tan (DPC)
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+          log:
+            file: tex/main.log
+            range:
+              start: 57
+              end: 57
+        - severity: info
+          name: XeTeX
+          category: Package graphics
+          text: 'Driver file: xetex.def'
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+            range:
+              start: 99
+              end: 99
+          log:
+            file: tex/main.log
+            range:
+              start: 61
+              end: 61
+        - name: XeTeX
+          severity: info
+          text: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
+          log:
+            file: tex/main.log
+            range:
+              start: 68
+              end: 68
+        - name: XeTeX
+          severity: info
+          text: geometry 2018/04/16 v5.8 Page Geometry
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+          log:
+            file: tex/main.log
+            range:
+              start: 71
+              end: 71
+        - name: XeTeX
+          severity: info
+          text: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+          log:
+            file: tex/main.log
+            range:
+              start: 73
+              end: 73
+        - name: XeTeX
+          severity: info
+          text: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+          log:
+            file: tex/main.log
+            range:
+              start: 75
+              end: 75
+        - severity: info
+          name: XeTeX
+          category: Package ifvtex
+          text: VTeX not detected.
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+          log:
+            file: tex/main.log
+            range:
+              start: 76
+              end: 76
+        - name: XeTeX
+          severity: info
+          text: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+          log:
+            file: tex/main.log
+            range:
+              start: 78
+              end: 78
+        - name: XeTeX
+          severity: info
+          text: >-
+            fancyhdr 2017/06/30 v3.9a Extensive control of page headers and
+            footers
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+          log:
+            file: tex/main.log
+            range:
+              start: 93
+              end: 94
+        - name: XeTeX
+          severity: info
+          text: minitoc 2018/07/12 v62 Package minitoc
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/minitoc.sty
+          log:
+            file: tex/main.log
+            range:
+              start: 105
+              end: 105
+        - name: XeTeX
+          severity: info
+          text: mtcmess 2006/03/14
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/mtcmess.sty
+          log:
+            file: tex/main.log
+            range:
+              start: 107
+              end: 107
+        - severity: info
+          name: XeTeX
+          category: Package minitoc
+          text: 'I0001 *** minitoc package, version 62 ***.'
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/minitoc.sty
+          log:
+            file: tex/main.log
+            range:
+              start: 109
+              end: 110
+        - severity: info
+          name: XeTeX
+          category: Package minitoc
+          text: I0005 compatible with hyperref.
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/minitoc.sty
+          log:
+            file: tex/main.log
+            range:
+              start: 114
+              end: 115
+        - severity: info
+          name: XeTeX
+          category: Package minitoc
+          text: I0023 part level macros available.
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/minitoc.sty
+          log:
+            file: tex/main.log
+            range:
+              start: 116
+              end: 117
+        - severity: info
+          name: XeTeX
+          category: Package minitoc
+          text: I0003 chapter level macros available.
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/minitoc.sty
+          log:
+            file: tex/main.log
+            range:
+              start: 118
+              end: 119
+        - severity: info
+          name: XeTeX
+          category: Package minitoc
+          text: I0002 Autoconfiguration of extensions.
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/minitoc.sty
+          log:
+            file: tex/main.log
+            range:
+              start: 123
+              end: 124
+        - severity: info
+          name: XeTeX
+          category: Package minitoc
+          text: I0012 Long extensions (Unix-like) will be used.
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/minitoc.sty
+          log:
+            file: tex/main.log
+            range:
+              start: 130
+              end: 131
+        - severity: info
+          name: XeTeX
+          category: Package minitoc
+          text: >-
+            I0031 ==> this version is configured for UNIX-like (long extensions)
+            file names.
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/minitoc.sty
+          log:
+            file: tex/main.log
+            range:
+              start: 132
+              end: 134
+        - severity: info
+          name: XeTeX
+          category: Package minitoc
+          text: I0010 The english language is selected. on input line 4910.
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/minitoc.sty
+          log:
+            file: tex/main.log
+            range:
+              start: 144
+              end: 146
+        - name: XeTeX
+          severity: info
+          text: 'tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting'
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/tocloft/tocloft.sty
+          log:
+            file: tex/main.log
+            range:
+              start: 152
+              end: 152
+        - severity: info
+          name: XeTeX
+          category: Package tocloft
+          text: The document has chapter divisions
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/tocloft/tocloft.sty
+            range:
+              start: 51
+              end: 51
+          log:
+            file: tex/main.log
+            range:
+              start: 153
+              end: 153
+        - name: XeTeX
+          severity: info
+          text: titlesec 2016/03/21 v2.10.2 Sectioning titles
+          source:
+            file: /usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
+          log:
+            file: tex/main.log
+            range:
+              start: 191
+              end: 191
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: Checking defaults for OML/cmm/m/it ... okay
+          source:
+            file: main.tex
+            range:
+              start: 33
+              end: 33
+          log:
+            file: tex/main.log
+            range:
+              start: 204
+              end: 205
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: Checking defaults for T1/cmr/m/n ... okay
+          source:
+            file: main.tex
+            range:
+              start: 33
+              end: 33
+          log:
+            file: tex/main.log
+            range:
+              start: 206
+              end: 207
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: Checking defaults for OT1/cmr/m/n ... okay
+          source:
+            file: main.tex
+            range:
+              start: 33
+              end: 33
+          log:
+            file: tex/main.log
+            range:
+              start: 208
+              end: 209
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: Checking defaults for OMS/cmsy/m/n ... okay
+          source:
+            file: main.tex
+            range:
+              start: 33
+              end: 33
+          log:
+            file: tex/main.log
+            range:
+              start: 210
+              end: 211
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: Checking defaults for TU/lmr/m/n ... okay
+          source:
+            file: main.tex
+            range:
+              start: 33
+              end: 33
+          log:
+            file: tex/main.log
+            range:
+              start: 212
+              end: 213
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: Checking defaults for OMX/cmex/m/n ... okay
+          source:
+            file: main.tex
+            range:
+              start: 33
+              end: 33
+          log:
+            file: tex/main.log
+            range:
+              start: 214
+              end: 215
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: Checking defaults for U/cmr/m/n ... okay
+          source:
+            file: main.tex
+            range:
+              start: 33
+              end: 33
+          log:
+            file: tex/main.log
+            range:
+              start: 216
+              end: 217
+        - severity: info
+          name: XeTeX
+          category: Package minitoc(hints)
+          text: I0049
+          source:
+            file: main.tex
+          log:
+            file: tex/main.log
+            range:
+              start: 259
+              end: 259
+        - severity: info
+          name: XeTeX
+          category: Package minitoc(hints)
+          text: I0047
+          source:
+            file: main.tex
+          log:
+            file: tex/main.log
+            range:
+              start: 262
+              end: 262
+        - severity: warning
+          name: XeTeX
+          category: Package minitoc(hints)
+          text: W0099
+          source:
+            file: main.tex
+          log:
+            file: tex/main.log
+            range:
+              start: 267
+              end: 267
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: External font `cmex10' loaded for size <17.28>.
+          source:
+            file: titlepage.tex
+            range:
+              start: 32
+              end: 32
+          log:
+            file: tex/main.log
+            range:
+              start: 273
+              end: 274
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: External font `cmex10' loaded for size <12>.
+          source:
+            file: titlepage.tex
+            range:
+              start: 32
+              end: 32
+          log:
+            file: tex/main.log
+            range:
+              start: 275
+              end: 276
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: External font `cmex10' loaded for size <8>.
+          source:
+            file: tex/main.toc
+            range:
+              start: 2
+              end: 2
+          log:
+            file: tex/main.log
+            range:
+              start: 283
+              end: 284
+        - severity: info
+          name: XeTeX
+          category: LaTeX Font
+          text: External font `cmex10' loaded for size <6>.
+          source:
+            file: tex/main.toc
+            range:
+              start: 2
+              end: 2
+          log:
+            file: tex/main.log
+            range:
+              start: 285
+              end: 286
+        - severity: info
+          name: XeTeX
+          category: Package minitoc
+          text: I0009 Listing minitoc auxiliary files. Creating the main.maf file.
+          source:
+            file: main.tex
+          log:
+            file: tex/main.log
+            range:
+              start: 310
+              end: 312
+        - severity: warning
+          name: XeTeX
+          category: Package minitoc(hints)
+          text: W0024
+          source:
+            file: main.tex
+          log:
+            file: tex/main.log
+            range:
+              start: 316
+              end: 316
+      inputs: []
+      outputs:
+        - tex/main.pdf
+      calls: []
+    type: ParsedLaTeXLog
+  tex/main.aux-ParsedLaTeXAuxilary:
+    timeStamp: 2019-09-08T06:27:41.626Z
+    jobNames: []
+    value:
+      commands:
+        - relax
+        - catcode
+        - babel@aux
+        - '@writefile'
+        - '@writefile'
+        - '@writefile'
+        - '@writefile'
+        - '@writefile'
+        - '@writefile'
+        - '@writefile'
+        - '@writefile'
+        - '@writefile'
+        - '@writefile'
+        - '@writefile'
+        - '@writefile'
+        - '@writefile'
+        - '@writefile'
+        - '@writefile'
+        - '@writefile'
+        - '@writefile'
+        - '@writefile'
+        - '@writefile'
+        - '@writefile'
+        - '@writefile'
+        - '@writefile'
+        - '@writefile'
+        - '@writefile'
+        - '@writefile'
+        - '@writefile'
+        - '@writefile'
+        - global
+        - '@writefile'
+        - '@writefile'
+        - '@writefile'
+        - '@writefile'
+        - '@writefile'
+    type: ParsedLaTeXAuxilary
+  /usr/share/texlive/texmf-dist/tex/generic/babel-portuges/portuges.ldf:
+    timeStamp: 2016-11-25T18:33:32.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/generic/babel/babel.def:
+    timeStamp: 2018-06-05T21:58:16.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty:
+    timeStamp: 2018-06-05T21:58:16.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/share/texlive/texmf-dist/tex/generic/babel/switch.def:
+    timeStamp: 2018-06-05T21:58:16.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def:
+    timeStamp: 2018-06-05T21:58:16.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/generic/babel/xebabel.def:
+    timeStamp: 2018-06-05T21:58:16.000Z
+    jobNames: []
+  tex/main-graph.dot:
+    timeStamp: 2019-09-07T16:48:29.205Z
+    jobNames: []
+    hash: 8HKza8w9ZTr+2Lom8boKnfwBKFZdtrkKeDh8Mb0IGeQ=
+    type: GraphViz
+  main-ParsedLaTeXMagic:
+    jobNames: []
+    type: ParsedLaTeXMagic
+  /usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty:
+    timeStamp: 2016-11-25T18:33:53.000Z
+    jobNames: []
+    type: LaTeXStyle
+  chapters/conclusoes.tex:
+    timeStamp: 2019-09-08T08:05:47.128Z
+    jobNames: []
+    hash: 7YSvzpbT2Zr0PhHi4/PBGno6rB2UPGIOt32znlSks+M=
+    type: TeX
+  chapters/metodologia.tex:
+    timeStamp: 2019-09-08T06:29:29.489Z
+    jobNames: []
+    hash: m9zbPg9TAGxf2SDqAr6V7wgbaOjJGQo1m1IajK+5G5E=
+    type: TeX
+  chapters/objetivos.tex:
+    timeStamp: 2019-09-08T06:35:23.975Z
+    jobNames: []
+    hash: IQfeuD12p9LmAysnruTAeD7a5ZIX/0Zzn93zmRpO1Aw=
+    type: TeX
+  /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm:
+    timeStamp: 2016-11-25T18:31:41.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm:
+    timeStamp: 2016-11-25T18:31:41.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr6.tfm:
+    timeStamp: 2016-11-25T18:31:41.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr8.tfm:
+    timeStamp: 2016-11-25T18:31:41.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm:
+    timeStamp: 2016-11-25T18:31:41.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm:
+    timeStamp: 2016-11-25T18:31:41.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty:
+    timeStamp: 2016-11-25T18:33:35.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty:
+    timeStamp: 2019-03-19T15:24:27.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty:
+    timeStamp: 2019-03-19T15:24:27.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty:
+    timeStamp: 2018-05-07T21:15:44.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty:
+    timeStamp: 2017-06-30T22:24:08.000Z
+    jobNames: []
+    type: LaTeXStyle
+  titlepage.tex:
+    timeStamp: 2019-09-08T02:55:10.722Z
+    jobNames: []
+    hash: 7q8qlxULstNBzglq4G7v8ktWQEYZIUWFNPL+Cftm8hg=
+    type: TeX
+  /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr17.tfm:
+    timeStamp: 2016-11-25T18:31:41.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/UKenglish.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/USenglish.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/acadian.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/acadien.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/afrikaan.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/afrikaans.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/albanian.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/american.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/arab.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/arab2.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/arabi.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/arabic.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/armenian.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/australian.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/austrian.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/bahasa.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/bahasai.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/bahasam.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/bangla.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/basque.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/bengali.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/bicig.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/bicig2.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/bicig3.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/bithe.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/brazil.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/brazilian.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/breton.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/british.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/bulgarian.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/bulgarianb.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/buryat.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/buryat2.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/canadian.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/canadien.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/castillan.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/castillian.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/catalan.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/chinese1.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/chinese1.mlo:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/chinese2.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/chinese2.mlo:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/croatian.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/czech.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/danish.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/devanagari.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/dutch.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/english.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/english1.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/english2.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/esperant.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/esperanto.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/estonian.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/ethiopia.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/ethiopian.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/ethiopian2.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/farsi1.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/farsi1.mlo:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/farsi2.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/farsi2.mlo:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/farsi3.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/finnish.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/finnish2.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/francais.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/french.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/french1.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/french2.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/frenchb.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/frenchle.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/frenchpro.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/galician.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/german.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/germanb.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/germanb2.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/greek-mono.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/greek-polydemo.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/greek-polykatha.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/greek.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/guarani.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/hangul-u8.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/hangul-u8.mlo:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/hangul1.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/hangul1.mlo:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/hangul2.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/hangul2.mlo:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/hangul3.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/hangul3.mlo:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/hangul4.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/hangul4.mlo:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/hanja-u8.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/hanja-u8.mlo:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/hanja1.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/hanja1.mlo:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/hanja2.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/hanja2.mlo:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/hebrew.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/hebrew2.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/hindi-modern.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/hindi.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/hungarian.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/icelandic.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/indon.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/indonesian.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/interlingua.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/irish.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/italian.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/italian2.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/japanese.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/japanese.mlo:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/japanese2.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/japanese2.mlo:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/japanese3.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/japanese3.mlo:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/japanese4.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/japanese4.mlo:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/japanese5.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/japanese5.mlo:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/japanese6.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/japanese6.mlo:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/kannada.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/khalkha.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/latin.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/latin2.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/latinc.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/latinc2.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/latvian.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/latvian2.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/letton.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/letton2.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/lithuanian.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/lithuanian2.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/lowersorbian.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/lsorbian.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/magyar.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/magyar2.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/magyar3.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/malay.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/malayalam-b.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/malayalam-keli.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/malayalam-keli2.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/malayalam-mr.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/malayalam-omega.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/malayalam-omega.mlo:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/malayalam-rachana.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/malayalam-rachana2.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/malayalam-rachana3.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/manju.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/mexican.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/meyalu.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/minitoc.sty:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/mongol.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/mongolb.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/mongolian.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/mtcmess.sty:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/naustrian.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/newzealand.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/ngerman.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/ngermanb.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/ngermanb2.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/norsk.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/norsk2.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/nynorsk.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/nynorsk2.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/occitan.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/occitan2.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/polish.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/polish2.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/polski.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/portuges.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/portuguese.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/romanian.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/romanian2.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/romanian3.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/russian-cca.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/russian-cca.mlo:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/russian-cca1.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/russian-cca1.mlo:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/russian-lh.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/russian-lh.mlo:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/russian-lhcyralt.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/russian-lhcyralt.mlo:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/russian-lhcyrkoi.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/russian-lhcyrkoi.mlo:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/russian-lhcyrwin.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/russian-lhcyrwin.mlo:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/russian.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/russian2m.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/russian2o.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/russianb.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/russianc.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/samin.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/scottish.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/serbian.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/serbianc.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/slovak.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/slovene.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/spanish.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/spanish2.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/spanish3.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/spanish4.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/swahili.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/swedish.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/swedish2.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/thai.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/thai.mlo:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/turkish.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/uighur.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/uighur2.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/uighur3.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/ukraineb.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/ukrainian.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/uppersorbian.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/usorbian.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/vietnam.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/vietnamese.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/welsh.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/xalx.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/xalx2.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/minitoc/xalx3.mld:
+    timeStamp: 2018-07-14T21:25:38.000Z
+    jobNames: []
+  tex/main.mtc:
+    timeStamp: 2019-09-08T08:05:54.913Z
+    jobNames: []
+    hash: 47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+  tex/main.mtc0:
+    timeStamp: 2019-09-08T08:05:54.913Z
+    jobNames: []
+    hash: 47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+  tex/main.mtc1:
+    timeStamp: 2019-09-08T01:20:36.166Z
+    jobNames: []
+    hash: 47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+  tex/main.mtc2:
+    timeStamp: 2019-09-08T01:20:36.166Z
+    jobNames: []
+    hash: rwdvXcZKvJsebR7A92pkF4jxmcdtNHvBfOUqIjdGE9A=
+  tex/main.mtc3:
+    timeStamp: 2019-09-08T01:20:36.166Z
+    jobNames: []
+    hash: 47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+  tex/main.mtc4:
+    timeStamp: 2019-09-08T01:20:36.166Z
+    jobNames: []
+    hash: 47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+  tex/main.maf:
+    timeStamp: 2019-09-08T08:05:55.127Z
+    jobNames: []
+    hash: W1RRL51rd3RYMJB+GEI6r0Kdq3ul/KEUQBCCCnGd5EA=
+  /usr/share/texlive/texmf-dist/fonts/tfm/adobe/helvetic/phvb7tn.tfm:
+    timeStamp: 2016-11-25T18:31:28.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1phv.fd:
+    timeStamp: 2016-11-25T18:33:57.000Z
+    jobNames: []
+    type: FontDescription
+  /usr/share/texlive/texmf-dist/tex/latex/tocloft/tocloft.sty:
+    timeStamp: 2017-09-01T01:34:10.000Z
+    jobNames: []
+    type: LaTeXStyle
+  /usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty:
+    timeStamp: 2016-11-25T18:34:01.000Z
+    jobNames: []
+    type: LaTeXStyle
+  chapters/resumo.tex:
+    timeStamp: 2019-09-08T02:53:41.934Z
+    jobNames: []
+    hash: 4+UFpXzyE8dTMR1hmp6MIoVdG1wOMUFSpHogOoHeH0Q=
+    type: TeX
+  /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg:
+    timeStamp: 2016-11-25T18:33:50.000Z
+    jobNames: []
+  /usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty:
+    timeStamp: 2016-11-25T18:34:03.000Z
+    jobNames: []
+    type: LaTeXStyle
+  tex/main.aux:
+    timeStamp: 2019-09-08T08:05:55.127Z
+    jobNames: []
+    hash: VRjJydOlu1mll2zIOAnXL+jLDsuAdsGaxu1HfayfiHE=
+    type: LaTeXAuxilary
+  tex/main.fls:
+    timeStamp: 2019-09-08T08:05:55.127Z
+    jobNames: []
+    hash: 2oGJ356Vo9q2U8+i7oPsIVHT/vUu2vRJFMaSRW99loM=
+    type: FileListing
+  tex/main.log:
+    timeStamp: 2019-09-08T08:05:55.232Z
+    jobNames: []
+    hash: KjxcI5LjZGqDR97MmOvJZsFTZjeWpDLKrRYPHwwccTA=
+    type: LaTeXLog
+    subType: XeTeX
+  tex/main.synctex.gz:
+    timeStamp: 2019-09-08T08:05:55.231Z
+    jobNames: []
+    hash: xJsx2UHY24TJOR+suH8O04UNLjXSpCsj8WKhia5cq4o=
+    type: SyncTeX
+  tex/main.pdf:
+    timeStamp: 2019-09-08T08:05:55.217Z
+    jobNames: []
+    hash: 2vVy5vQ3YYKzVxdHpeFAe4W6UWfSHyPAR5xJPlQbZqQ=
+    type: PortableDocumentFormat
+  tex/main.toc:
+    timeStamp: 2019-09-08T08:05:55.128Z
+    jobNames: []
+    hash: X+PQbov7fGQ20pIergW8gbFjLZG8QcxzKdJM7KUlT8A=
+    type: TableOfContents
+  main.synctex.gz:
+    timeStamp: 2019-09-08T08:07:13.952Z
+    jobNames: []
+    hash: xJsx2UHY24TJOR+suH8O04UNLjXSpCsj8WKhia5cq4o=
+    type: SyncTeX
+  main.pdf:
+    timeStamp: 2019-09-08T08:07:13.956Z
+    jobNames: []
+    hash: 2vVy5vQ3YYKzVxdHpeFAe4W6UWfSHyPAR5xJPlQbZqQ=
+    type: PortableDocumentFormat
+rules:
+  - name: ApplyOptions
+    command: load
+    phase: initialize
+    parameters: []
+    inputs:
+      - file: dicy.yaml-ParsedYAML
+        type: default
+      - file: main.yaml-ParsedYAML
+        type: default
+      - file: main.tex-ParsedLaTeXMagic
+        type: default
+      - file: dicy-instance.yaml-ParsedYAML
+        type: default
+      - file: /home/felix/.config/dicy/config.yaml-ParsedYAML
+        type: default
+      - file: main-ParsedLaTeXMagic
+        type: default
+    outputs: []
+  - name: Migrate
+    command: load
+    phase: initialize
+    parameters: []
+    inputs: []
+    outputs: []
+  - name: ApplyOptions
+    command: load
+    phase: execute
+    parameters: []
+    inputs:
+      - file: dicy.yaml-ParsedYAML
+        type: default
+      - file: main.yaml-ParsedYAML
+        type: default
+      - file: main.tex-ParsedLaTeXMagic
+        type: default
+      - file: dicy-instance.yaml-ParsedYAML
+        type: default
+      - file: /home/felix/.config/dicy/config.yaml-ParsedYAML
+        type: default
+      - file: main-ParsedLaTeXMagic
+        type: default
+    outputs: []
+  - name: ParseOptionsFile
+    command: load
+    phase: execute
+    parameters: []
+    inputs:
+      - file: /home/felix/.config/dicy/config.yaml
+        type: default
+    outputs:
+      - file: /home/felix/.config/dicy/config.yaml-ParsedYAML
+        type: default
+  - name: ParseLaTeXMagic
+    command: load
+    phase: execute
+    parameters:
+      - main.tex
+    inputs:
+      - file: main.tex
+        type: default
+    outputs:
+      - file: main.tex-ParsedLaTeXMagic
+        type: default
+  - name: AssignJobNames
+    command: load
+    phase: finalize
+    parameters: []
+    inputs: []
+    outputs: []
+  - name: CreateOutputTree
+    command: build
+    phase: initialize
+    parameters: []
+    inputs: []
+    outputs: []
+  - name: FindLogFiles
+    command: build
+    phase: initialize
+    parameters: []
+    inputs: []
+    outputs: []
+  - name: LaTeX
+    command: build
+    phase: execute
+    parameters:
+      - main.tex
+    inputs:
+      - file: main.tex
+        type: default
+      - file: tex/main.fls-ParsedFileListing
+        type: default
+      - file: tex/main.log-ParsedLaTeXLog
+        type: default
+      - file: /usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map
+        type: default
+      - file: /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
+        type: default
+      - file: /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+        type: default
+      - file: /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/base/report.cls
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/graphics-def/xetex.def
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+        type: default
+      - file: /usr/share/texlive/texmf-dist/web2c/texmf.cnf
+        type: default
+      - file: /usr/share/texlive/texmf-var/web2c/xetex/xelatex.fmt
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/generic/babel-portuges/portuges.ldf
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/generic/babel/xebabel.def
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
+        type: default
+      - file: chapters/conclusoes.tex
+        type: default
+      - file: chapters/metodologia.tex
+        type: default
+      - file: chapters/objetivos.tex
+        type: default
+      - file: /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
+        type: default
+      - file: /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
+        type: default
+      - file: /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
+        type: default
+      - file: /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
+        type: default
+      - file: /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
+        type: default
+      - file: /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+        type: default
+      - file: titlepage.tex
+        type: default
+      - file: /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr17.tfm
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/UKenglish.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/USenglish.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/acadian.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/acadien.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/afrikaan.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/afrikaans.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/albanian.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/american.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/arab.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/arab2.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/arabi.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/arabic.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/armenian.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/australian.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/austrian.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/bahasa.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/bahasai.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/bahasam.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/bangla.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/basque.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/bengali.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/bicig.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/bicig2.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/bicig3.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/bithe.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/brazil.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/brazilian.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/breton.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/british.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/bulgarian.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/bulgarianb.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/buryat.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/buryat2.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/canadian.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/canadien.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/castillan.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/castillian.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/catalan.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/chinese1.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/chinese1.mlo
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/chinese2.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/chinese2.mlo
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/croatian.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/czech.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/danish.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/devanagari.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/dutch.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/english.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/english1.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/english2.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/esperant.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/esperanto.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/estonian.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/ethiopia.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/ethiopian.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/ethiopian2.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/farsi1.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/farsi1.mlo
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/farsi2.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/farsi2.mlo
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/farsi3.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/finnish.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/finnish2.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/francais.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/french.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/french1.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/french2.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/frenchb.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/frenchle.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/frenchpro.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/galician.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/german.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/germanb.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/germanb2.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/greek-mono.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/greek-polydemo.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/greek-polykatha.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/greek.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/guarani.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/hangul-u8.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/hangul-u8.mlo
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/hangul1.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/hangul1.mlo
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/hangul2.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/hangul2.mlo
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/hangul3.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/hangul3.mlo
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/hangul4.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/hangul4.mlo
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/hanja-u8.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/hanja-u8.mlo
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/hanja1.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/hanja1.mlo
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/hanja2.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/hanja2.mlo
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/hebrew.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/hebrew2.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/hindi-modern.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/hindi.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/hungarian.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/icelandic.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/indon.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/indonesian.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/interlingua.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/irish.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/italian.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/italian2.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/japanese.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/japanese.mlo
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/japanese2.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/japanese2.mlo
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/japanese3.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/japanese3.mlo
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/japanese4.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/japanese4.mlo
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/japanese5.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/japanese5.mlo
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/japanese6.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/japanese6.mlo
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/kannada.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/khalkha.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/latin.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/latin2.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/latinc.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/latinc2.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/latvian.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/latvian2.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/letton.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/letton2.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/lithuanian.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/lithuanian2.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/lowersorbian.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/lsorbian.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/magyar.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/magyar2.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/magyar3.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/malay.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/malayalam-b.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/malayalam-keli.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/malayalam-keli2.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/malayalam-mr.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/malayalam-omega.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/malayalam-omega.mlo
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/malayalam-rachana.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/malayalam-rachana2.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/malayalam-rachana3.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/manju.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/mexican.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/meyalu.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/minitoc.sty
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/mongol.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/mongolb.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/mongolian.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/mtcmess.sty
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/naustrian.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/newzealand.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/ngerman.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/ngermanb.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/ngermanb2.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/norsk.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/norsk2.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/nynorsk.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/nynorsk2.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/occitan.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/occitan2.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/polish.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/polish2.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/polski.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/portuges.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/portuguese.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/romanian.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/romanian2.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/romanian3.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/russian-cca.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/russian-cca.mlo
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/russian-cca1.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/russian-cca1.mlo
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/russian-lh.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/russian-lh.mlo
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/russian-lhcyralt.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/russian-lhcyralt.mlo
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/russian-lhcyrkoi.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/russian-lhcyrkoi.mlo
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/russian-lhcyrwin.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/russian-lhcyrwin.mlo
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/russian.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/russian2m.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/russian2o.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/russianb.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/russianc.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/samin.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/scottish.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/serbian.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/serbianc.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/slovak.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/slovene.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/spanish.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/spanish2.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/spanish3.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/spanish4.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/swahili.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/swedish.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/swedish2.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/thai.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/thai.mlo
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/turkish.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/uighur.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/uighur2.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/uighur3.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/ukraineb.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/ukrainian.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/uppersorbian.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/usorbian.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/vietnam.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/vietnamese.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/welsh.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/xalx.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/xalx2.mld
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/minitoc/xalx3.mld
+        type: default
+      - file: tex/main.mtc
+        type: default
+      - file: tex/main.mtc0
+        type: default
+      - file: tex/main.mtc1
+        type: default
+      - file: tex/main.mtc2
+        type: default
+      - file: tex/main.mtc3
+        type: default
+      - file: tex/main.mtc4
+        type: default
+      - file: /usr/share/texlive/texmf-dist/fonts/tfm/adobe/helvetic/phvb7tn.tfm
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1phv.fd
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/tocloft/tocloft.sty
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
+        type: default
+      - file: chapters/resumo.tex
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+        type: default
+      - file: /usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+        type: default
+      - file: tex/main.aux
+        type: default
+      - file: tex/main.toc
+        type: default
+    outputs:
+      - file: tex/main.maf
+        type: default
+      - file: tex/main.mtc
+        type: default
+      - file: tex/main.mtc0
+        type: default
+      - file: tex/main.mtc1
+        type: default
+      - file: tex/main.mtc2
+        type: default
+      - file: tex/main.mtc3
+        type: default
+      - file: tex/main.mtc4
+        type: default
+      - file: tex/main.aux
+        type: default
+      - file: tex/main.fls
+        type: default
+      - file: tex/main.log
+        type: default
+      - file: tex/main.synctex.gz
+        type: target
+      - file: tex/main.pdf
+        type: target
+      - file: tex/main.toc
+        type: default
+  - name: LogProducedTargets
+    command: build
+    phase: finalize
+    parameters: []
+    inputs: []
+    outputs: []
+  - name: CheckForMissingBuildRule
+    command: build
+    phase: finalize
+    parameters:
+      - main.tex
+    inputs:
+      - file: main.tex
+        type: default
+    outputs: []
+  - name: FindLogFiles
+    command: log
+    phase: initialize
+    parameters: []
+    inputs: []
+    outputs: []
+  - name: ReportLogMessages
+    command: log
+    phase: execute
+    parameters:
+      - output/main.log-ParsedLaTeXLog
+    inputs:
+      - file: output/main.log-ParsedLaTeXLog
+        type: default
+    outputs: []
+  - name: ReportLogMessages
+    command: log
+    phase: execute
+    parameters:
+      - tex/main.log-ParsedLaTeXLog
+    inputs:
+      - file: tex/main.log-ParsedLaTeXLog
+        type: default
+    outputs: []
+  - name: SaveCache
+    command: save
+    phase: execute
+    parameters: []
+    inputs: []
+    outputs: []
+  - name: Clean
+    command: clean
+    phase: execute
+    parameters: []
+    inputs: []
+    outputs: []
+  - name: GraphDependencies
+    command: graph
+    phase: execute
+    parameters: []
+    inputs: []
+    outputs:
+      - file: tex/main-graph.dot
+        type: default
+  - name: GraphViz
+    command: graph
+    phase: execute
+    parameters:
+      - tex/main-graph.dot
+    inputs:
+      - file: tex/main-graph.dot
+        type: default
+    outputs: []
+  - name: LoadAndValidateCache
+    command: load
+    phase: initialize
+    parameters: []
+    inputs: []
+    outputs: []
+  - name: ParseLaTeXAuxilary
+    command: build
+    phase: execute
+    parameters:
+      - tex/main.aux
+    inputs:
+      - file: tex/main.aux
+        type: default
+    outputs:
+      - file: tex/main.aux-ParsedLaTeXAuxilary
+        type: default
+  - name: ParseFileListing
+    command: build
+    phase: execute
+    parameters:
+      - tex/main.fls
+    inputs:
+      - file: tex/main.fls
+        type: default
+    outputs:
+      - file: tex/main.fls-ParsedFileListing
+        type: default
+  - name: ParseLaTeXLog
+    command: build
+    phase: execute
+    parameters:
+      - tex/main.log
+    inputs:
+      - file: tex/main.log
+        type: default
+    outputs:
+      - file: tex/main.log-ParsedLaTeXLog
+        type: default
+  - name: CopyTargetsToRoot
+    command: build
+    phase: execute
+    parameters:
+      - tex/main.synctex.gz
+    inputs:
+      - file: tex/main.synctex.gz
+        type: target
+    outputs:
+      - file: main.synctex.gz
+        type: target
+  - name: CopyTargetsToRoot
+    command: build
+    phase: execute
+    parameters:
+      - tex/main.pdf
+    inputs:
+      - file: tex/main.pdf
+        type: target
+    outputs:
+      - file: main.pdf
+        type: target
+  - name: ParseLaTeXLog
+    command: log
+    phase: execute
+    parameters:
+      - tex/main.log
+    inputs:
+      - file: tex/main.log
+        type: default
+    outputs:
+      - file: tex/main.log-ParsedLaTeXLog
+        type: default

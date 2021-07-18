@@ -1,0 +1,95 @@
+digraph {
+subgraph "cluster_load" {
+  label = "load command";
+  subgraph "cluster_load;initialize" {
+    label = "initialize phase";
+    "ApplyOptions(load;initialize;)" [shape=box,label="ApplyOptions()"];
+    "Migrate(load;initialize;)" [shape=box,label="Migrate()"];
+  }
+  "cluster_load;initialize" -> "cluster_load;execute";
+  subgraph "cluster_load;execute" {
+    label = "execute phase";
+    "ApplyOptions(load;execute;)" [shape=box,label="ApplyOptions()"];
+    "ParseOptionsFile(load;execute;)" -> "ApplyOptions(load;execute;)";
+    "ParseOptionsFile(load;execute;)" [shape=box,label="ParseOptionsFile()"];
+    "ParseLaTeXMagic(load;execute;;main.tex)" -> "ApplyOptions(load;execute;)";
+    "ParseLaTeXMagic(load;execute;;main.tex)" [shape=box,label="ParseLaTeXMagic(main.tex)"];
+  }
+  "cluster_load;execute" -> "cluster_load;finalize";
+  subgraph "cluster_load;finalize" {
+    label = "finalize phase";
+    "AssignJobNames(load;finalize;)" [shape=box,label="AssignJobNames()"];
+  }
+}
+subgraph "cluster_build" {
+  label = "build command";
+  subgraph "cluster_build;initialize" {
+    label = "initialize phase";
+    "CreateOutputTree(build;initialize;)" [shape=box,label="CreateOutputTree()"];
+    "FindLogFiles(build;initialize;)" [shape=box,label="FindLogFiles()"];
+  }
+  "cluster_build;initialize" -> "cluster_build;execute";
+  subgraph "cluster_build;execute" {
+    label = "execute phase";
+    "LaTeX(build;execute;;main.tex)" -> "LaTeX(build;execute;;main.tex)" [dir="both"];
+    "LaTeX(build;execute;;main.tex)" -> "ParseLaTeXLog(build;execute;;tex/main.log)" [dir="both"];
+    "LaTeX(build;execute;;main.tex)" -> "ParseLaTeXAuxilary(build;execute;;tex/main.aux)";
+    "LaTeX(build;execute;;main.tex)" -> "ParseFileListing(build;execute;;tex/main.fls)" [dir="both"];
+    "LaTeX(build;execute;;main.tex)" -> "CopyTargetsToRoot(build;execute;;tex/main.synctex.gz)";
+    "LaTeX(build;execute;;main.tex)" -> "CopyTargetsToRoot(build;execute;;tex/main.pdf)";
+    "LaTeX(build;execute;;main.tex)" [shape=box,label="LaTeX(main.tex)"];
+    "ParseLaTeXLog(build;execute;;tex/main.log)" [shape=box,label="ParseLaTeXLog(tex/main.log)"];
+    "ParseLaTeXAuxilary(build;execute;;tex/main.aux)" [shape=box,label="ParseLaTeXAuxilary(tex/main.aux)"];
+    "ParseFileListing(build;execute;;tex/main.fls)" [shape=box,label="ParseFileListing(tex/main.fls)"];
+    "CopyTargetsToRoot(build;execute;;tex/main.synctex.gz)" [shape=box,label="CopyTargetsToRoot(tex/main.synctex.gz)"];
+    "CopyTargetsToRoot(build;execute;;tex/main.pdf)" [shape=box,label="CopyTargetsToRoot(tex/main.pdf)"];
+  }
+  "cluster_build;execute" -> "cluster_build;finalize";
+  subgraph "cluster_build;finalize" {
+    label = "finalize phase";
+    "LogProducedTargets(build;finalize;)" [shape=box,label="LogProducedTargets()"];
+    "CheckForMissingBuildRule(build;finalize;;main.tex)" [shape=box,label="CheckForMissingBuildRule(main.tex)"];
+  }
+}
+subgraph "cluster_log" {
+  label = "log command";
+  subgraph "cluster_log;initialize" {
+    label = "initialize phase";
+    "FindLogFiles(log;initialize;)" [shape=box,label="FindLogFiles()"];
+  }
+  "cluster_log;initialize" -> "cluster_log;execute";
+  subgraph "cluster_log;execute" {
+    label = "execute phase";
+    "ReportLogMessages(log;execute;;output/main.log-ParsedLaTeXLog)" [shape=box,label="ReportLogMessages(output/main.log-ParsedLaTeXLog)"];
+    "ReportLogMessages(log;execute;;tex/main.log-ParsedLaTeXLog)" [shape=box,label="ReportLogMessages(tex/main.log-ParsedLaTeXLog)"];
+    "ParseLaTeXLog(log;execute;;tex/main.log)" -> "ReportLogMessages(log;execute;;tex/main.log-ParsedLaTeXLog)";
+    "ParseLaTeXLog(log;execute;;tex/main.log)" [shape=box,label="ParseLaTeXLog(tex/main.log)"];
+  }
+}
+subgraph "cluster_save" {
+  label = "save command";
+  "cluster_save;initialize" -> "cluster_save;execute";
+  subgraph "cluster_save;execute" {
+    label = "execute phase";
+    "SaveCache(save;execute;)" [shape=box,label="SaveCache()"];
+  }
+}
+subgraph "cluster_clean" {
+  label = "clean command";
+  "cluster_clean;initialize" -> "cluster_clean;execute";
+  subgraph "cluster_clean;execute" {
+    label = "execute phase";
+    "Clean(clean;execute;)" [shape=box,label="Clean()"];
+  }
+}
+subgraph "cluster_graph" {
+  label = "graph command";
+  "cluster_graph;initialize" -> "cluster_graph;execute";
+  subgraph "cluster_graph;execute" {
+    label = "execute phase";
+    "GraphDependencies(graph;execute;)" -> "GraphViz(graph;execute;;tex/main-graph.dot)";
+    "GraphDependencies(graph;execute;)" [shape=box,label="GraphDependencies()"];
+    "GraphViz(graph;execute;;tex/main-graph.dot)" [shape=box,label="GraphViz(tex/main-graph.dot)"];
+  }
+}
+}

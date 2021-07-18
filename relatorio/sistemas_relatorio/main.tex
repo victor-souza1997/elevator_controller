@@ -1,0 +1,55 @@
+\documentclass[12pt, twoside]{report}
+
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+\usepackage{graphicx}
+\usepackage{lipsum}
+\usepackage[a4paper, width=150mm, top=25mm, bottom=25mm, bindingoffset=10mm]{geometry}
+\usepackage{fancyhdr}
+\usepackage{minitoc}
+\usepackage[titles]{tocloft}
+\usepackage{titlesec}
+
+\pagestyle{fancy}
+\fancyhead{}
+\fancyhead[RO]{\leftmark}
+\fancyhead[RE]{\textit{Sistemas Digitais}}
+\fancyfoot{}
+\fancyfoot[R]{\thepage}
+\fancyfoot[LO]{\textit{Universidade Federal de Sergipe}}
+
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\renewcommand{\cftchapfont}{\fontsize{11}{13}}
+
+\titleformat{\chapter}{\normalfont\LARGE\bfseries}{\thechapter}{1em}{}[{\titlerule[0.6pt]}]
+
+\setlength{\cftbeforechapskip}{2pt}
+\setlength{\cftbeforesecskip}{1pt}
+
+\graphicspath{{images/}}
+\title{Sistema de Controle para um Elevador em Verilog}
+
+\begin{document}
+\input{titlepage}
+
+\chapter*{Resumo}
+\input{chapters/resumo}
+
+\tableofcontents
+
+\chapter{Objetivos}
+
+\input{chapters/objetivos}
+
+
+\chapter{Metodologia}
+\input{chapters/metodologia}
+
+\chapter{Conclusões}
+\input{chapters/conclusoes}
+
+\appendix
+\chapter{Misc}
+
+\end{document}

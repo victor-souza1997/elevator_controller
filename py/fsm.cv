@@ -1,0 +1,46 @@
+digraph finite_state_machine {
+	rankdir=LR size=100
+	node [shape=doublecircle]
+	"ESTADO
+SOBE"
+	"ESTADO
+DESCE"
+	"CHEGOU
+CIMA"
+	"CHEGOU
+BAIXO"
+	node [shape=circle]
+	"ESTADO
+SOBE" -> "CHEGOU
+CIMA" [label="3-1"]
+	"CHEGOU
+CIMA" -> "CHEGOU
+CIMA" [label=tempo]
+	"CHEGOU
+CIMA" -> "ESTADO
+DMU" [label=""]
+	"ESTADO
+DMU" -> "ESTADO
+SOBE" [label="4-1"]
+	"ESTADO
+DMU" -> PARADO [label="3-1"]
+	PARADO -> PARADO [label=000]
+	PARADO -> "ESTADO
+SOBE" [label="1-1"]
+	PARADO -> "ESTADO
+DESCE" [label="1-2"]
+	"ESTADO
+DESCE" -> "CHEGOU
+BAIXO" [label="1-2"]
+	"CHEGOU
+BAIXO" -> "CHEGOU
+BAIXO" [label=tempo]
+	"CHEGOU
+BAIXO" -> "ESTADO
+DCM" [label="2-1"]
+	"ESTADO
+DCM" -> "ESTADO
+DESCE" [label="4-2"]
+	"ESTADO
+DCM" -> PARADO [label="3-2"]
+}
